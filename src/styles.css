@@ -1,0 +1,13 @@
+.file-explorer{
+    padding: 20px;
+}
+
+.file-item{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.folder-contents{
+    margin-left: 20px;
+}
