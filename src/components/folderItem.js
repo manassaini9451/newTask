@@ -10,7 +10,7 @@ const FolderItem = ({ item, updateFiles, files }) => {
     setIsOpen(!isOpen);
   };
 
-  const addItem = (type) => {l
+  const addItem = (type) => {
     const newItem = {
       id: uuidv4(),
       name: type === "file" ? "New File.txt" : "New Folder",
